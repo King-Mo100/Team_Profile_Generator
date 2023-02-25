@@ -21,7 +21,28 @@ function createEngineer(team) {
             type: 'input',
             name: 'name',
             message: "What is the engineer's name?",
-        }
+        },
+        
+        {
+            type: 'input',
+            id: 'id',
+            message: "What is the engineer's ID?",
+        },
+
+        {
+            type: 'input',
+            email: 'email',
+            message: "What is the engineer's email?",
+        },
+
+        {
+            type: 'input',
+            gitHub: 'gitHub',
+            message: "What is the engineer's GitHub username?",
+        },
+
+
+
     ]).then((engineerDetails) => {
         // Initialise Engineer class to create Manager object
         // const engineer = new Engineer(engineerDetails.name, engineerDetails.id, engineerDetails.email, engineerDetails.githubUsername)
