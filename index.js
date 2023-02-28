@@ -61,7 +61,22 @@ function createIntern(team) {
             type: 'input',
             name: 'name',
             message: "What is the intern's name?",
-        }
+        },
+
+
+        {
+            type: 'input',
+            id: 'id',
+            message: "What is the intern's ID?",
+        },
+
+
+        {
+            type: 'input',
+            email: 'email',
+            message: "What is the intern's email?",
+        },
+
     ]).then((internDetails) => {
         // Initialise Intern class to create Manager object
         // const intern = new Intern(internDetails.name, internDetails.id, internDetails.email, internDetails.school)
