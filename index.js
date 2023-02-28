@@ -125,7 +125,25 @@ function createManager(team) {
             type: 'input',
             name: 'name',
             message: "What is the team manager's name?",
-        }
+        },
+
+        {
+            type: 'input',
+            id: 'id',
+            message: "What is the team manager's ID?",
+        },
+
+        {
+            type: 'input',
+            email: 'email',
+            message: "What is the team manager's email?",
+        },
+
+        {
+            type: 'input',
+            OfficeNumber: 'offic number',
+            message: "What is the team manager's office number?",
+        },
     ]).then((managerDetails) => {
         // Initialise Manager class to create Manager object
         // const manager = new Manager(managerDetails.name, managerDetails.id, managerDetails.email, managerDetails.officeNumber)
