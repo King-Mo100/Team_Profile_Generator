@@ -45,8 +45,8 @@ function createEngineer(team) {
 
     ]).then((engineerDetails) => {
         // Initialise Engineer class to create Manager object
-        // const engineer = new Engineer(engineerDetails.name, engineerDetails.id, engineerDetails.email, engineerDetails.githubUsername)
-        // team.push(engineer);
+        const engineer = new Engineer (engineerDetails.name, engineerDetails.id, engineerDetails.email, engineerDetails.gitHub)
+        team.push(engineer);
         createTeam(team); // at this point we add an engineer to the team array
     });
 }
