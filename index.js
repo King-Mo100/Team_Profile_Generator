@@ -37,7 +37,7 @@ function createEngineer(team) {
 
         {
             type: 'input',
-            gitHub: 'gitHub',
+            github: 'github',
             message: "What is the engineer's GitHub username?",
         },
 
@@ -45,7 +45,7 @@ function createEngineer(team) {
 
     ]).then((engineerDetails) => {
         // Initialise Engineer class to create Manager object
-        const engineer = new Engineer (engineerDetails.name, engineerDetails.id, engineerDetails.email, engineerDetails.gitHub)
+        const engineer = new Engineer (engineerDetails.name, engineerDetails.id, engineerDetails.email, engineerDetails.github)
         team.push(engineer);
         createTeam(team); // at this point we add an engineer to the team array
     });
