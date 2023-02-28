@@ -79,8 +79,8 @@ function createIntern(team) {
 
     ]).then((internDetails) => {
         // Initialise Intern class to create Manager object
-        // const intern = new Intern(internDetails.name, internDetails.id, internDetails.email, internDetails.school)
-        // team.push(intern);
+        const intern = new Intern(internDetails.name, internDetails.id, internDetails.email, internDetails.school)
+        team.push(intern);
         createTeam(team); // at this point we add an intern to the team array
     });
 }
