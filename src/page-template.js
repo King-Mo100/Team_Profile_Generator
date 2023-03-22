@@ -1,3 +1,5 @@
+
+const fs = require("fs");
 // creates the team
 const generateTeam = team => {
 

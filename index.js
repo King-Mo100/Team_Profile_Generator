@@ -13,10 +13,7 @@ const render = require("./src/page-template.js");
 //  Code to gather information about the development team members, and render the HTML file.
 function createEngineer(team) {
     inquirer.prompt([
-        // Engineer name
-        // Engineer id
-        // Engineer email
-        // Engineer GitHub username
+
         {
             type: 'input',
             name: 'name',
@@ -25,19 +22,19 @@ function createEngineer(team) {
         
         {
             type: 'input',
-            id: 'id',
+            name: 'id',
             message: "What is the engineer's ID?",
         },
 
         {
             type: 'input',
-            email: 'email',
+            name: 'email',
             message: "What is the engineer's email?",
         },
 
         {
             type: 'input',
-            github: 'github',
+            name: 'github',
             message: "What is the engineer's GitHub username?",
         },
 
@@ -66,14 +63,14 @@ function createIntern(team) {
 
         {
             type: 'input',
-            id: 'id',
+            name: 'id',
             message: "What is the intern's ID?",
         },
 
 
         {
             type: 'input',
-            email: 'email',
+            name: 'email',
             message: "What is the intern's email?",
         },
 
@@ -108,6 +105,7 @@ function createTeam(team) {
             // write html to a file index.html using fs library
             fs.writeFile(outputPath, html, (err) => {
                 if (err) {
+                    console.log(err)
                     console.log('Failed to write HTML file');
                 }
             });
@@ -129,19 +127,19 @@ function createManager(team) {
 
         {
             type: 'input',
-            id: 'id',
+            name: 'id',
             message: "What is the team manager's ID?",
         },
 
         {
             type: 'input',
-            email: 'email',
+            name: 'email',
             message: "What is the team manager's email?",
         },
 
         {
             type: 'input',
-            OfficeNumber: 'offic number',
+            name: 'office number',
             message: "What is the team manager's office number?",
         },
     ]).then((managerDetails) => {
