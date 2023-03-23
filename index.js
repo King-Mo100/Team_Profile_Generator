@@ -66,12 +66,17 @@ function createIntern(team) {
             name: 'id',
             message: "What is the intern's ID?",
         },
-
-
+        
         {
             type: 'input',
             name: 'email',
             message: "What is the intern's email?",
+        },
+
+        {
+            type: 'input',
+            name: 'school',
+            message: "What is the intern's school?",
         },
 
     ]).then((internDetails) => {
@@ -139,7 +144,7 @@ function createManager(team) {
 
         {
             type: 'input',
-            name: 'office number',
+            name: 'officeNumber',
             message: "What is the team manager's office number?",
         },
     ]).then((managerDetails) => {
