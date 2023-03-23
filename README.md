@@ -20,6 +20,10 @@ The application will start and you will be prompted to enter information about t
 Once you have finished adding team members, a HTML file would be generatedin the `output` directory.
 
 ## Video
-# Team Profile Generator
+
 
 [![Team Profile Generator](https://img.youtube.com/vi/14vsoqYBQ5cbjlcGTzrQnysJak-NE-3C7/0.jpg)](https://www.youtube.com/watch?v=14vsoqYBQ5cbjlcGTzrQnysJak-NE-3C7)
+
+### Video link and download
+Link: https://clipchamp.com/watch/eh8ZIHM720x
+Download: https://drive.google.com/uc?id=1C_lz8hwg_DbMNVDtBvmm6Msu5m0Fksi_&export=download
