@@ -18,3 +18,8 @@ To use the Team Profile Generator, you must have Node.js and npm installed on yo
 The application will start and you will be prompted to enter information about the team member.  You will the be prompted to either add more or finish building the team.
 
 Once you have finished adding team members, a HTML file would be generatedin the `output` directory.
+
+## Video
+# Team Profile Generator
+
+[![Team Profile Generator](https://img.youtube.com/vi/14vsoqYBQ5cbjlcGTzrQnysJak-NE-3C7/0.jpg)](https://www.youtube.com/watch?v=14vsoqYBQ5cbjlcGTzrQnysJak-NE-3C7)
